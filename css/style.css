@@ -1,0 +1,42 @@
+p {
+  word-wrap: break-word;
+}
+
+.banner {
+  height: 300px;
+}
+
+footer .logo_guga {
+  max-height: 30px;
+}
+footer .float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+footer .my-float {
+  margin-top: 16px;
+}
+footer .my-float:hover {
+  color: #0976f3;
+}
+
+.escondeSesao {
+  display: none;
+}
+
+.invisivel {
+  opacity: 0;
+  transition: opacity 0.13s ease-in-out;
+}
+
+/*# sourceMappingURL=style.css.map */

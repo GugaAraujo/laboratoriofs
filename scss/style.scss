@@ -1,38 +1,92 @@
 @import 'helpers';
 @import 'globals';
 
-.no-radius{
-    border-radius: 0 !important;
+.navbar{
+    font-size: 18px;
+    margin-bottom: 1px;
+
+    .navbar-brand{
+        text-align: center;
+        .nav-title{
+            font-size: 27px;
+            color: $principal;
+        }
+        .nav-subtitle{
+            font-size: 18px;
+        }
+    }
+    i{
+        font-size: 20px;
+        color:$principal;
+    }
+
 }
 
 .banner{
-    height: 300px;
+    height: 200px;
+
+
+}
+
+.banner-carousel{
+    .owl-dot{
+        span{
+            height: 6px !important; 
+            width: 30px !important;
+        }
+    }
+
+    .active{
+        span{
+            background: $auxiliar !important;
+        }
+    }
+}
+
+.Content-section{
+    margin-top: -33px;
+    background-image: linear-gradient(
+        360deg,
+        rgba(122, 118, 118, 0.897),
+        rgba(227, 233, 235, 0.897)
+      ),
+    url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
 }
 
 footer {
-    .logo_guga{
-        max-height: 30px;
+    height: 135px;
+    font-size: 18px;
+    .footer-link{
+        font-size: 16px;
+        text-decoration: none;
     }
 
     .float{
         position:fixed;
         width:60px;
         height:60px;
-        bottom:40px;
-        right:40px;
-        background-color:#25d366;
+        bottom:15px;
+        right:15px;
+        background-color:darken($auxiliar,10);
         color:#FFF;
         border-radius:50px;
         text-align:center;
-      font-size:30px;
-        box-shadow: 2px 2px 3px #999;
-      z-index:100;
+        font-size:30px;
+        box-shadow: 2px 2px 3px rgb(83, 82, 82);
+        z-index:100;
+        &:hover{
+            color: green
+        }
     }
     
     .my-float{
         margin-top:16px;
         &:hover{
-            color: $titulo
+            color: green
         }
     }
 }

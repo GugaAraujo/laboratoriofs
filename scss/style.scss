@@ -1,6 +1,9 @@
 @import 'helpers';
 @import 'globals';
 
+.no-radius{
+    border-radius: 0 !important;
+}
 
 .banner{
     height: 300px;
@@ -33,14 +36,6 @@ footer {
         }
     }
 }
-
-
-
-
-
-
-
-
 
 .escondeSesao{
     display:none;

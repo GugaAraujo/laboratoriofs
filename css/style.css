@@ -2,6 +2,10 @@ p {
   word-wrap: break-word;
 }
 
+.no-radius {
+  border-radius: 0 !important;
+}
+
 .banner {
   height: 300px;
 }

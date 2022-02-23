@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GugaAraujo/laboratoriofs/issues"
   },
-  "homepage": "https://github.com/GugaAraujo/laboratoriofs#readme"
+  "homepage": "https://github.com/GugaAraujo/laboratoriofs#readme",
+  "dependencies": {
+    "sass": "^1.49.8"
+  }
 }

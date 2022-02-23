@@ -8,6 +8,7 @@
     .navbar-brand{
         text-align: center;
         .nav-title{
+            font-weight: 600;
             font-size: 27px;
             color: $principal;
         }
@@ -71,22 +72,22 @@ footer {
         height:60px;
         bottom:15px;
         right:15px;
-        background-color:darken($auxiliar,10);
-        color:#FFF;
+        background-color:darken(rgb(15, 190, 15),10);
+        color:rgb(211, 228, 200);
         border-radius:50px;
         text-align:center;
         font-size:30px;
         box-shadow: 2px 2px 3px rgb(83, 82, 82);
         z-index:100;
         &:hover{
-            color: green
+            color: rgb(255, 255, 255)
         }
     }
     
     .my-float{
         margin-top:16px;
         &:hover{
-            color: green
+            color: rgb(255, 255, 255)
         }
     }
 }
